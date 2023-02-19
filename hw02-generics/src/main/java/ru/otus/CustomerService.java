@@ -10,7 +10,6 @@ public class CustomerService {
 
     //todo: 3. надо реализовать методы этого класса
     //важно подобрать подходящую Map-у, посмотрите на редко используемые методы, они тут полезны
-
     private static Map<Customer, String> customersMap = new HashMap<>();
     private static NavigableMap<Customer, String> mapToGetNext = new TreeMap<>();
 

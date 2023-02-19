@@ -61,5 +61,4 @@ public class Customer implements Comparable<Customer> {
     public int compareTo(Customer o) {
         return (int) (this.getScores() - o.getScores());
     }
-
 }

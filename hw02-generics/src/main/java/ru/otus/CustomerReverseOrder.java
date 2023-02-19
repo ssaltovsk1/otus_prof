@@ -9,6 +9,7 @@ public class CustomerReverseOrder {
     //надо подобрать подходящую структуру данных, тогда решение будет в "две строчки"
     List<Customer> customerReverseOrder = new ArrayList<>();
 
+
     public void add(Customer customer) {
         customerReverseOrder.add(customer);
     }
